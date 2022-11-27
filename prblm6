@@ -1,0 +1,13 @@
+// CHEKING IF A NUMBER IS ARMSTRONG OR NOT
+
+n=int(input("ENTER A NUMBER:")
+temp = n
+sum = 0
+while (temp != 0):
+    r = temp % 10
+    add_sum += r*r*r
+    temp = temp//10
+if (sum == n):
+    print("The Given number is a three-digit Armstrong Number")
+else:
+    print("The Given number is not an Armstrong Number")
