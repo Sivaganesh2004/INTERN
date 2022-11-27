@@ -1,3 +1,4 @@
+//calculate days in a month and year
 month=int(input("ENTER THE MONTH:"))
 year=int(input("ENTER THE YEAR:"))
 
